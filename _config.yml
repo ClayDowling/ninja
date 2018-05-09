@@ -3,6 +3,8 @@ minimal_mistakes_skin: "dirt"
 title: "Clay Dowling: Ninja"
 name: &name "Clay Dowling"
 description: "He was never here."
+paginate: 5
+paginate: /path:num/
 
 search_full_content: true
 twitter:
