@@ -1,11 +1,9 @@
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "sunrise"
+minimal_mistakes_skin: "aqua"
 title: "Clay Dowling: Ninja"
 name: "Clay Dowling"
 description: "He was never here."
-url: "https://claydowling.github.io/ninja/"
-baseusr: "/ninja"
-breadcrumbs: true
+
 search_full_content: true
 twitter:
         username: ClayDowling
