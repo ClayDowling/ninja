@@ -1,7 +1,7 @@
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "aqua"
 title: "Clay Dowling: Ninja"
-name: "Clay Dowling"
+name: &name "Clay Dowling"
 description: "He was never here."
 
 search_full_content: true
@@ -11,29 +11,15 @@ facebook:
         username: ClayDowling
 
 author:
-        name: "Clay Dowling"
+        name: *name
         bio: "Sneaking ninja."
-        location: "Dexter, Michigan, USA"
+        location: "Right where you aren't looking"
         email: "clay@lazarusid.com"
 
 kramdown:
         input: GFM
         toc_levels: 1..6
         smart_quotes: lsquo,rsquo,ldquo,rdquo
-
-plugins:
-        - jekyll-paginate
-        - jekyll-sitemap
-        - jekyll-gist
-        - jekyll-feed
-        - jemoji
-
-whitelist:
-        - jekyll-paginate
-        - jekyll-sitemap
-        - jekyll-gist
-        - jekyll-feed
-        - jemoji
 
 category_archive:
         type: liquid
@@ -55,3 +41,10 @@ defaults:
                   comments: false
                   share: true
                   related: true
+        # _pages
+        - scope:
+                path: ""
+                type: pages
+          values:
+                layout: single
+                author_profile: true
